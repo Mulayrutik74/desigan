@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+.card {
+    position: relative;
+}
+
+header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    left: 10vw;
+}
+
+.nav {
+
+    background-color: pink;
+    padding: 10px 0;
+
+}
+
+.nav ul li {
+    display: inline;
+    padding: 0 34px;
+cursor: pointer;
+}
+.nav ul li:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.box1 {
+    position: sticky;
+    background-color: blueviolet;
+    height: 90vh;
+    margin: 13px;
+
+}
+
+.con1 img {
+    position: absolute;
+    background-color: rgb(217, 203, 231);
+    width: 45vw;
+    height: 65vh;
+    left: 35px;
+    top: 85px;
+}
+
+.con2 img {
+    position: absolute;
+    background-color: rgb(143, 207, 141);
+    width: 45vw;
+    height: 65vh;
+    right: 35px;
+    top: 85px;
+}
+
+.box2 {
+
+    padding: 15vh;
+    text-align: center;
+    border-radius: 100px;
+    font-size: 20px;
+    margin: .5vw;
+    background-color: rgb(202, 198, 198);
+}
+
+.logo img {
+    position: fixed;
+    background-color: rgb(196, 190, 190);
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 93vw;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.logo img:hover{
+    background-color: rgb(255, 255, 255);
+border: 2px solid black;
+}
+
+.fot {
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    color: white;
+    padding: 5vh;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0.5vw;
+}
