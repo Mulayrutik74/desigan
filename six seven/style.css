@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ * {
+    padding: 0;
+    margin-top: 1vh;
+}
+
+body {
+    width: 95vw;
+font-family:"Segoe UI";
+}
+
+
+.nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.holder ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1em;
+    gap: 15px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin:auto ;
+    cursor: pointer;
+   
+}
+
+ul>li>img {
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+
+}
+
+.seprate {
+    display: flex;
+    gap: 15px;
+
+}
+
+
+
+.translate , .search {
+
+    height: 4vh;
+    color: white;
+ 
+
+}
+
+main {
+
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.download {
+    display: flex;
+  text-align: center;
+    justify-content: center;
+    margin-top: 10vh;
+    font-size: 3.1em;
+    gap: 23px;
+}
+
+.download div:nth-child(2) {
+    font-weight: bold;
+}
+
+.downloadt {
+    display: flex;
+    justify-content: space-around;
+ text-align: center;
+    gap: 10px;
+    font-weight: lighter;
+    font-size: 1.4em;
+    width: 50vw;
+    margin: 10vh auto 4vh auto;
+    padding: 10px;
+}
+
+.submit {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px auto 7px auto;
+    padding: 14px 33px 16px 46px;
+    background-color: #00b6d1;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.centerc{
+    display: flex;
+    padding-top: 15vh;
+    display: flex;
+    align-items: center;
+
+}
+.logo2{
+    display: flex;
+   
+}
+.con{
+    display: flex;
+}
+.btext{
+    display: flex;
+  font-weight: bolder;
+    font-size: 1.5em;
+    margin: auto;
+    font-family: "Baloo 2";
+
+
+}
+.ktext{
+display: flex;
+    gap: 10px;
+    margin-top: 4vh;
+}
+.contenar{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+ row-gap: 30px;
+ column-gap: 30px;
+ 
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 237, 236);
+    min-height: 30vh;
+    flex-direction:column ;
+    border-radius: 22px;
+  width: auto;
+   
+}
+.box div:first-child{
+    font-weight: 900;
+}
+
+.box1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+.box button{
+ position: relative;
+    background-color: #5cb85c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 30px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.box2{
+
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.box3{
+   
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+.box4{
+   
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
+
+.box5{
+  
+    grid-column: 3/4;
+    grid-row: 2/3;
+  
+}
+
+.box6{
+    
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+.box7{
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+  
+}
+.boxc{
+    position: relative;
+bottom: -28px;
+font-size: 10px;
+padding: .5vw;
+}
+.boxd {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow-wrap:anywhere;
+    bottom: -24px;
+    font-size: 10px;
+    width: 20vw;
+}
+
+
+
+
